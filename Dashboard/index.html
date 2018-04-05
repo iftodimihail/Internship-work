@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/left-nav.css">
+    <link rel="stylesheet" type="text/css" href="css/user-area.css">
+  </head>
+
+  <body>
+
+    <header>
+      <div class = "row">
+
+        <div class = "col-lg-2 profile">
+          <div class="row wrapper">
+            <div class="col-lg-3">
+              <img src="img/header/avatar.png" alt="user avatar">
+            </div>
+            <div class="col-lg-9">
+              <p>HOANG NGUYEN</p>
+            </div>
+          </div>
+        </div>
+
+        <div class = "col-lg-10 icons">
+           <div class="user-icons">
+            <img src = "img/header/user.png" alt="user icon">
+            <img src = "img/header/message.png" alt="user icon">
+            <img src = "img/header/bell.png" alt="user icon">
+          </div>
+
+          <div class="N_logo">
+            <img src = "img/header/N.png" alt="user icon">
+          </div>
+
+          <div class = "search">
+            <img src = "img/header/search.png" alt="search icon">
+          </div>
+        </div>
+
+
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class = "row">
+        <!-- left-navbar -->
+        <aside class = "col-lg-2 left-nav">
+          <ul class="nav">
+            <li class='nav-btn'>
+              <img src='img/dashboard/dashboard.png' alt="dashboard nav icon">
+              <span>DASHBOARD</span>
+            </li>
+            <li class='nav-btn'>
+              <img src='img/dashboard/course.png' alt="course nav icon">
+              <span>COURSE</span>
+            </li>
+            <li class='nav-btn'>
+              <img src='img/dashboard/exam.png' alt="exam nav icon">
+              <span>EXAM</span>
+            </li>
+            <li class='nav-btn'>
+              <img src='img/dashboard/q&a.png' alt="q&a nav icon">
+              <span>Q&A</span>
+            </li>
+            <li class='nav-btn'>
+              <img src='img/dashboard/news.png' alt="news nav icon">
+              <span>NEWS</span>
+            </li>
+          </ul>
+        </aside>
+
+        <!-- main area -->
+        <main class = "col-lg-10 main-area">
+
+            <!-- user details -->
+            <div class = "row user-row1">
+              <section class = "col-lg-12 user">
+                <div class = "user-profile">
+                  <img src="img/user_details/avatar.png" alt="user avatar">
+                  <div class="user-details">
+                    <div class="user-name">
+                      <p>HOANG NGUYEN</p>
+                      <div class = "stars">
+                        <img src="img/user_details/star1.png" alt="star1">
+                        <img src="img/user_details/star2.png" alt="star2">
+                        <img src="img/user_details/star3.png" alt="star3">
+                        <img src="img/user_details/star4.png" alt="star4">
+                        <img src="img/user_details/star5.png" alt="star5">
+                      </div>
+                    </div>
+
+                    <div class= "profile-text">
+                      <p><span>Student</span>
+                        <img src="img/user_details/grey_dot.png">
+                        <a href="#">Learn more</a>
+                      </p>
+                    </div>
+
+                    <div class="user-experience">
+                      <img src = "img/user_details/badge.png">
+                      <span>8,782 exp</span>
+                    </div>
+
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- user navigation -->
+            <div class = "row user-row2">
+              <section class = "col-lg-12">
+                <ul class="user-nav">
+                  <li><span>KNOWLEDGE</span></li>
+                  <li><span>COURSE</span></li>
+                  <li><span>EXAM</span></li>
+                  <li><span>Q&A</span></li>
+                  <li><span>NEWS</span></li>
+                  <li><span>ACTIVITY</span></li>
+                  <li><span>FRIENDS</span></li>
+                </ul>
+              </section>
+            </div>
+
+            <!-- menu content nav -->
+            <div class = "row user-row3">
+              <section class = "col-lg-4 courses-nav">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><p>12</p>DONE COURSES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><p>3</p>UNFINISHED COURSES</a>
+                  </li>
+                </ul>
+                <div class ="tab-content">
+                  <ul class="courses-content">
+                    <li>Basic for UX Designer</li>
+                    <li>10 steps to improve your wireframe</li>
+                    <li>A Better Way To Request App Ratings</li>
+                    <li>How To Speed Up Your WordPress Website</li>
+                    <li><a href="#">Show more<i class="fa fa-sort-down"></i></a></li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class = "col-lg-4 questions-nav">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><p>27</p>ASKING QUESTIONS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><p>7</p>ANSWERED QUESTIONS</a>
+                  </li>
+                </ul>
+                <div class ="tab-content">
+                  <ul class="questions-content">
+                    <li><i class="fa fa-comment-o"> <span>12</span></i>How to make good logo?</li>
+                    <li><i class="fa fa-comment-o"> <span>3</span></i>What are the best mobile apps for ...</li>
+                    <li><i class="fa fa-comment-o"> <span>67</span></i>What's the difference between UI and ...</li>
+                    <li><i class="fa fa-comment-o"> <span>0</span></i>What logos include hidden messages ...</li>
+                    <li><a href="#">Show more<i class="fa fa-sort-down"></i></a></li>
+                  </ul>
+                </div>
+              </section>
+
+              <section class = "col-lg-4 exams-nav">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><p>12</p>FOLLOWING EXAMS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><p>3</p>DONE EXAMS</a>
+                  </li>
+                </ul>
+                <div class ="tab-content">
+                  <ul class="exams-content">
+                    <li>
+                      <div class="percentage">
+                        <p>70%</p>
+                        <div class="rect"></div>
+                      </div>
+                      Junior web designer
+                    </li>
+                    <li>
+                      <div class="percentage">
+                        <p>70%</p>
+                        <div class="rect"></div>
+                      </div>Which is the best way to pass the PMP ...
+                    </li>
+                    <li>
+                      <div class="percentage">
+                        <p>70%</p>
+                        <div class="rect"></div>
+                      </div>
+                      What are great examples of viral UX/UI ...
+                    </li>
+                    <li><div class="percentage">
+                      <p>70%</p>
+                      <div class="rect"></div>
+                      </div>
+                      Why is consistency important in design?
+                   </li>
+                    <li id="stubborn"><a href="#">Show more<i class="fa fa-sort-down"></i></a></li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+
+            <!-- user activity -->
+            <div class = "row user-row4">
+              <section class = "col-lg-4 exp-stats">
+                <div class="exp-gained">
+                    <h6>Experience gained</h6>
+                    <div class="rect-container">
+                        <div class="exp-rect" id="course-rect"><div class="green-rect"></div></div>
+                        <div class="exp-rect" id="question-rect"><div class="green-rect"></div></div>
+                        <div class="exp-rect" id="exam-rect"><div class="green-rect"></div></div>
+                        <div id="last-month"><span>124+</span></div>
+                    </div>
+                </div>
+
+                <div class="exp-per-day">
+                    <h6>Experience per day</h6>
+                    <img src="img/exp_stats/graph.png" alt="graph">
+                </div>
+              </section>
+
+              <section class = "col-lg-8 friends-activity">
+                <h5 class="friends-activity-title">FRIENDS ACTIVITY</h5>
+                <ul>
+                  <li>
+                    <div class="friend-container">
+                      <div><img src="img/friends_activity/friend1.png" alt="friend avatar"><a href="#">Shawn Peterson</a> Finished the course: <span>Basic for UX Designer</span></div>
+                      <div><i class="fa fa-clock-o" aria-hidden="true"></i>12:30 AM</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="friend-container">
+                      <div><img src="img/friends_activity/friend2.png" alt="friend avatar"><a href="#">Mary V. Robinson</a> Asked question: <span> What is best grid for desktop web?</span></div>
+                      <div><i class="fa fa-clock-o" aria-hidden="true"></i>9:30 PM</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="friend-container">
+                      <div><img src="img/friends_activity/friend3.png" alt="friend avatar"><a href="#">Joe Ramos</a> Finished the exam: <span> Junior web designer</span></div>
+                      <div><i class="fa fa-clock-o" aria-hidden="true"></i>4:30 PM</div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="friend-container">
+                      <div><img src="img/friends_activity/friend4.png" alt="friend avatar"><a href="#">Sean Walker</a> Answered question: <span>How to make good logo?</span></div>
+                      <div><i class="fa fa-clock-o" aria-hidden="true"></i>3:30 AM</div>
+                    </div>
+                  </li>
+                  <li><a href="#">Show more<i class="fa fa-sort-down"></i></a></li>
+                </ul>
+              </section>
+            </div>
+
+          </main>
+
+        </div>
+      </div>
+
+
+  </body>
+</html>
