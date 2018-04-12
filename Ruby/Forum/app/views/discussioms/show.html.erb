@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @discussiom.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @discussiom.content %>
+</p>
+
+<%= link_to 'Edit', edit_discussiom_path(@discussiom) %> |
+<%= link_to 'Back', discussioms_path %>
